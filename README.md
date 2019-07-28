@@ -1,3 +1,23 @@
+Added Gitpod ability by Jeremy Ellis
+
+Gitpod expects a Github login
+
+Live link load (Takes a few minutes tomake the dockerfile etc)
+
+https://gitpod.io/#github.com/hpssjellis/entangled
+
+
+July 28th, 2019 Snapshot of working container at 
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/4eb5a2d8-63a1-4ad1-a493-ff5485cde695)
+
+
+Back to the IOTA README.md
+
+------------------------------------------------------------------------------------------------------------
+
+
+
 ## IOTA Entangled Monorepo
 [![Build status](https://badge.buildkite.com/42ef0512276a270bd34cb0010fd641558b344dab4aa2225fba.svg)](https://buildkite.com/iota-foundation/entangled)
 
