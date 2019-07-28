@@ -12,6 +12,9 @@ July 28th, 2019 Snapshot of working container at
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#snapshot/4eb5a2d8-63a1-4ad1-a493-ff5485cde695)
 
 
+
+Present issue is how to compile output .c and .h files for a microprocessor
+
 Back to the IOTA README.md
 
 ------------------------------------------------------------------------------------------------------------
