@@ -54,9 +54,9 @@ RUN mkdir -p /home/gitpod/rocksetta                                             
     && echo "Back to root to install the Android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt                
     
 
-RUN wget https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.24.1-installer-linux-x86_64.sh
-RUN chmod +x bazel-0.24.1-installer-linux-x86_64.sh
-RUN ./bazel-0.24.1-installer-linux-x86_64.sh --user    
+RUN wget https://github.com/bazelbuild/bazel/releases/download/0.28.1/bazel-0.28.1-installer-linux-x86_64.sh
+RUN chmod +x bazel-0.28.1-installer-linux-x86_64.sh
+RUN ./bazel-0.28.1-installer-linux-x86_64.sh --user    
 
 
 
