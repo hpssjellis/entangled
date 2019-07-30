@@ -15,7 +15,8 @@ RUN apt-get update                                                              
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends dbus gcc g++ automake    \
                libtool lsb-release make  clang-format-6.0   libdbus-1-dev libboost-dev libreadline-dev    \                                     
                autoconf autoconf-archive  software-properties-common bsdtar xsltproc                      \
-                 ocl-icd-opencl-dev  opencl-headers  libssl-dev                                           \
+               ocl-icd-opencl-dev  opencl-headers  libssl-dev                                             \
+               pkg-config zip g++ zlib1g-dev unzip python                                                 \
     && apt-get update  
 
 
@@ -37,7 +38,7 @@ RUN apt update && apt install -y --no-install-recommends \
  && rm -rf /var/lib/apt/lists/*  
     
     
-    
+
     
     
     
@@ -53,7 +54,9 @@ RUN mkdir -p /home/gitpod/rocksetta                                             
     && echo "Back to root to install the Android sdk" >> /home/gitpod/rocksetta/logs/mylogs.txt                
     
 
-
+RUN wget https://github.com/bazelbuild/bazel/releases/download/0.24.1/bazel-0.24.1-installer-linux-x86_64.sh
+RUN chmod +x bazel-0.24.1-installer-linux-x86_64.sh
+RUN ./bazel-0.24.1-installer-linux-x86_64.sh --user    
 
 
 
