@@ -72,25 +72,3 @@ RUN apt-get clean
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#install prerequisits
-RUN apt-get update && \
-    apt-get -y install sudo
-
-RUN sudo apt update && sudo apt -y install ocl-icd-opencl-dev 
-
-RUN sudo apt -y install opencl-headers && sudo apt-get -y install libssl-dev
