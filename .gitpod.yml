@@ -21,6 +21,8 @@ tasks:
               git clone https://github.com/XKCP/XKCP.git                                                            &&
               
               cd ..                                                                                             &&
+              doxygen ./Doxyfile                                                                                &&
+              mv out/html public                                                                                      &&
               
               echo "Starting Apache"                   &>>  /workspace/entangled/logs/gitpod-install-log.txt     &&   
               apachectl start                                                                                       &&
