@@ -14,19 +14,20 @@ tasks:
               
               cd /workspace/entangled/possible-dependencies                                                      &&
               
-              git clone https://github.com/whoshuu/cpr.git                                                          &&
-              git clone https://github.com/curl/curl.git                                                            &&
-              git clone https://github.com/google/googletest.git                                                    &&
-              git clone https://github.com/nlohmann/json.git                                                        &&
-              git clone https://github.com/XKCP/XKCP.git                                                            &&
+              git clone https://github.com/whoshuu/cpr.git                                                       &&
+              git clone https://github.com/curl/curl.git                                                         &&
+              git clone https://github.com/google/googletest.git                                                 &&
+              git clone https://github.com/nlohmann/json.git                                                     &&
+              git clone https://github.com/XKCP/XKCP.git                                                         &&
               
-              cd ..                                                                                             &&
-              doxygen ./Doxyfile                                                                                &&
-              mv out/html public                                                                                      &&
+              cd ..                                                                                              &&
+              doxygen ./Doxyfile                                                                                 &&
+              mv public publicOld                                                                                &&
+              mv out/html public                                                                                 &&
               
               echo "Starting Apache"                   &>>  /workspace/entangled/logs/gitpod-install-log.txt     &&   
-              apachectl start                                                                                       &&
-              gp preview $(gp url 8001)                                                                             &&
+              apachectl start                                                                                    &&
+              gp preview $(gp url 8001)                                                                          &&
               
               
               echo "Ending .gitpod.yml installation"  &>>   /workspace/entangled/logs/gitpod-install-log.txt    
