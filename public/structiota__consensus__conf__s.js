@@ -1,0 +1,26 @@
+var structiota__consensus__conf__s =
+[
+    [ "alpha", "structiota__consensus__conf__s.html#a349dbdff52ce8d7a4f015d304e81bf6e", null ],
+    [ "below_max_depth", "structiota__consensus__conf__s.html#a9f782ef298ef2fbdfdfa838176fc19de", null ],
+    [ "coordinator_address", "structiota__consensus__conf__s.html#a1938cd93e647172c8c9f06b780ac7305", null ],
+    [ "coordinator_depth", "structiota__consensus__conf__s.html#a70dd8b5d22b8cb0d3c0a8ba61d50179f", null ],
+    [ "coordinator_max_milestone_index", "structiota__consensus__conf__s.html#aeb2068afd85b9b2b11aa39522e3de6d6", null ],
+    [ "coordinator_security_level", "structiota__consensus__conf__s.html#ad15dc08ea99818255f868ddf5442df7e", null ],
+    [ "coordinator_signature_type", "structiota__consensus__conf__s.html#aa9373742f62ba96e014ca75d53bfa33e", null ],
+    [ "genesis_hash", "structiota__consensus__conf__s.html#a174be81549ffd3ea62e2a316af728ca4", null ],
+    [ "last_milestone", "structiota__consensus__conf__s.html#abf97946e4f3c37a9272ab5b5ad0c1519", null ],
+    [ "local_snapshots", "structiota__consensus__conf__s.html#a9f8d8c4fbf2ba2103179cec28bdcf2ff", null ],
+    [ "max_depth", "structiota__consensus__conf__s.html#a97b8eb1b79045c60cbcb8909227ffa50", null ],
+    [ "mwm", "structiota__consensus__conf__s.html#ae5c7999c3f9035a6a9fab6cdcc35d7db", null ],
+    [ "snapshot_conf_file", "structiota__consensus__conf__s.html#a00288c2cd5c1a1346cd336f1fa9a4bed", null ],
+    [ "snapshot_file", "structiota__consensus__conf__s.html#a2cee612e83aa1468381578cadf507856", null ],
+    [ "snapshot_signature_depth", "structiota__consensus__conf__s.html#ade8420aabcba1832d640396d1eb37739", null ],
+    [ "snapshot_signature_file", "structiota__consensus__conf__s.html#a3fc731255071ffab4666286772a79b92", null ],
+    [ "snapshot_signature_index", "structiota__consensus__conf__s.html#acd960a4c23829621691d36bb4702f12e", null ],
+    [ "snapshot_signature_pubkey", "structiota__consensus__conf__s.html#aacd569c856411b923ed2cd8ad2224ba1", null ],
+    [ "snapshot_signature_skip_validation", "structiota__consensus__conf__s.html#a0643633bd23fe26da305d8c97ab785e4", null ],
+    [ "snapshot_timestamp_sec", "structiota__consensus__conf__s.html#a3d12c0e6fb7c88724819a1fcb41d17ce", null ],
+    [ "spent_addresses_db_path", "structiota__consensus__conf__s.html#a8bd0fa8a4e504da4f5ef0f6277943f69", null ],
+    [ "spent_addresses_files", "structiota__consensus__conf__s.html#a68da302b3ab6f746d6d874864befc689", null ],
+    [ "tangle_db_path", "structiota__consensus__conf__s.html#a43747d93825e4c6ee38b7ea7b51d61ae", null ]
+];
