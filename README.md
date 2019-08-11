@@ -1,9 +1,9 @@
 Added Gitpod ability by Jeremy Ellis
 
 
-API files made Aug 8th, 2019 
+API files made Aug 8th, 2019  (missing 50 files as max is 1000)
 
-https://hpssjellis.github.io/entangled/public/
+https://hpssjellis.github.io/entangled/public/index.html
 
 
 
