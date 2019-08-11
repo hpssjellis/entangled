@@ -3,7 +3,7 @@ Added Gitpod ability by Jeremy Ellis
 
 API files made Aug 8th, 2019 
 
-https://hpssjellis.github.io/entangled/
+https://hpssjellis.github.io/entangled/public/
 
 
 
